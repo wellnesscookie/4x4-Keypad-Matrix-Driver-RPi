@@ -580,7 +580,7 @@ char* get_key(void)
    
    for (c = 0; c < COLS; c++)
    {
-      /* Activate column, inverted by pull up */
+      /* Activate column to HIGH
       SetGpioPin(colPins[c]);
       
       for (r = 0; r < ROWS; r++)
